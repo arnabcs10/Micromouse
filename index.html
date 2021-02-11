@@ -9,56 +9,63 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header display-4">
       <!-- <span id="menu-toggler" class="btn btn-primary">Menu</span> -->
-      <h4>Micro Mouse</h4>
+      Micro Mouse
     </div>
     <div class="content">
       <div id="menu" class="menu">
-        <h4>Settings</h4>
-        <label for="rows">Rows: </label>
-        <input id="rows" type="number" name="rows" value="10" />
-        <br />
-        <label for="columns">Cols: </label>
-        <input id="columns" type="number" name="columns" value="15" />
-        <div class="buttonContainer">
-          <button class="btn btn-primary" id="resetGrid">Reset Grid</button>
+        <!-- <h4>Settings</h4> -->
+        <div class="input-grp">
+          <label for="rows">Rows: </label>
+          <input id="rows" type="number" name="rows" value="10" />
+          
+          <label for="columns">Cols: </label>
+          <input id="columns" type="number" name="columns" value="15" />
         </div>
-        <div class="buttonContainer">
-          <button class="btn btn-primary" id="changeEndNodes">
-            Change End Cells
-          </button>
+        
+        <div class="button-group">
+          <div class="buttonContainer">
+            <button class="btn btn-primary" id="resetGrid">Reset Grid</button>
+          </div>
+          <div class="buttonContainer">
+            <button class="btn btn-primary" id="changeEndNodes">
+              Change End Cells
+            </button>
+          </div>
+          <div class="buttonContainer">
+            <button class="btn btn-primary" id="startAlgorithm">
+              Start 
+            </button>
+          </div>
         </div>
-        <div class="buttonContainer">
-          <button class="btn btn-primary" id="startAlgorithm">
-            Start 
-          </button>
-        </div>
-        <!-- <div class="legend">
-          <h4>Legend</h4>
-          <div class="legendBox">
-            <div class="cell" style="background-color: green"></div>
-            <div class="legendDescription">Start Cell</div>
-          </div>
-          <div class="legendBox">
-            <div class="cell" style="background-color: red"></div>
-            <div class="legendDescription">End Cell</div>
-          </div>
-          <div class="legendBox">
-            <div class="cell" style="background-color: blue"></div>
-            <div class="legendDescription">Obstacle</div>
-          </div>
-          <div class="legendBox">
-            <div class="cell" style="background-color: orange"></div>
-            <div class="legendDescription">Path</div>
-          </div>
-          <div class="legendBox">
-            <div class="cell" style="background-color: aquamarine"></div>
-            <div class="legendDescription">Visited Cell</div>
-          </div>
-        </div> -->
-        <div class="footer">
+        
+        
+        <!-- <div class="footer">
          
+        </div> -->
+      </div>
+      <div class="legend">
+        <!-- <h4>Legend</h4> -->
+        <div class="legendBox">
+          <div class="cell" style="background-color: green"></div>
+          <div class="legendDescription">Start Cell</div>
+        </div>
+        <div class="legendBox">
+          <div class="cell" style="background-color: red"></div>
+          <div class="legendDescription">End Cell</div>
+        </div>
+        <div class="legendBox">
+          <div class="cell" style="background-color: blue"></div>
+          <div class="legendDescription">Obstacle</div>
+        </div>
+        <div class="legendBox">
+          <div class="cell" style="background-color: orange"></div>
+          <div class="legendDescription">Path</div>
+        </div>
+        <div class="legendBox">
+          <div class="cell" style="background-color: aquamarine"></div>
+          <div class="legendDescription">Visited Cell</div>
         </div>
       </div>
       <div class="gridContainer">

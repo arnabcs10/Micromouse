@@ -1,22 +1,26 @@
 .header {
   background-color: aliceblue;
   padding: 10px;
-  height: 50px;
+  /* height: 50px; */
   z-index: 1;
+  text-align: center;
 }
 .header h4 {
-  float: right;
+  /* float: right; */
 }
 .content {
   display: flex;
+  flex-direction: column;
   height: calc(100vh - 50px);
 }
 .menu {
-  width: 300px;
-  height: 100%;
+  /* width: 300px;
+  height: 100%; */
   background-color: aliceblue;
   padding: 20px 15px;
   z-index: 1;
+  display: flex;
+  justify-content: space-around;
 }
 .menu h4 {
   margin: 20px 0;
@@ -25,11 +29,24 @@
   margin-top: 3px;
 }
 .menu input {
-  float: right;
+  /* float: right; */
   width: 100px;
+}
+.button-group{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.input-grp{
+  padding-top: 20px;
 }
 .buttonContainer {
   margin: 20px 0;
+}
+.legend{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
 }
 .legendBox {
   display: flex;
@@ -48,6 +65,7 @@
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
+  padding-top: 30px;
 }
 .grid {
   max-width: 100%;
