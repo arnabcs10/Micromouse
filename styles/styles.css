@@ -1,13 +1,13 @@
 .header {
-  background-color: aliceblue;
+  background-color: #ede3fc;
   padding: 10px;
   /* height: 50px; */
   z-index: 1;
   text-align: center;
 }
-.header h4 {
-  /* float: right; */
-}
+/* .header h4 {
+  float: right;
+} */
 .content {
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 .menu {
   /* width: 300px;
   height: 100%; */
-  background-color: aliceblue;
+  background-color: #ede3fc;
   padding: 20px 15px;
   z-index: 1;
   display: flex;
@@ -39,6 +39,7 @@
 }
 .input-grp{
   padding-top: 20px;
+  font-weight: 600;
 }
 .buttonContainer {
   margin: 20px 0;
@@ -87,10 +88,10 @@
   background-color: aliceblue;
 }
 .obstacle {
-  background-color: blue !important;
+  background-color: #683ab7 !important;
 }
 .obstacle:hover {
-  background-color: blue;
+  background-color: #683ab7;
 }
 .start {
   background-color: green !important;
@@ -105,10 +106,10 @@
   background-color: red;
 }
 .visited {
-  background-color: aquamarine;
+  background-color: #addaff;
 }
 .path {
-  background-color: orange;
+  background-color: #fcc358;
 }
 .stopInteractions {
   pointer-events: none;
