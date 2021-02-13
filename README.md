@@ -6,6 +6,8 @@ Micromouse is an event where small robot mice solve a 16×16 maze.The mice are c
 
 This project is the soft version of Micromouse game.
 
+![Home](/img/micromouse-res.PNG)
+
 ## Description
 Features of the Web App:
 
