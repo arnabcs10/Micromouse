@@ -1,5 +1,5 @@
 # Micromouse
-
+https://micro-mouse.netlify.app/
  A simple web application to find the minimum distance path between any two points avoiding the obstacle present in between the path.
 
 Micromouse is an event where small robot mice solve a 16×16 maze.The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided. The mouse needs to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the goal. Having reached the goal, the mouse will typically perform additional searches of the maze until it has found an optimal route from the start to the finish. Once the optimal route has been found, the mouse will run that route in the shortest possible time.
