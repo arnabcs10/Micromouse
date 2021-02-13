@@ -1,28 +1,3 @@
-// function traverse(node) {
-//   let numArr = node.substring(5).split("-");
-
-//   let nodeUp = `cell-${parseInt(numArr[0]) - 1}-${parseInt(numArr[1]) - 0}`;
-//   $("#" + nodeUp).addClass("visited");
-//   if (parseInt(numArr[0]) > 0) traverse(nodeUp);
-//   else return;
-
-//   let nodeLeft = `cell-${parseInt(numArr[0]) - 0}-${parseInt(numArr[1]) - 1}`;
-//   $("#" + nodeLeft).addClass("visited");
-//   console.log(nodeLeft);
-//   if (parseInt(numArr[1]) > 0) traverse(nodeLeft);
-//   else return;
-
-//   let nodeRight = `cell-${parseInt(numArr[0]) + 0}-${parseInt(numArr[1]) + 1}`;
-//   $("#" + nodeRight).addClass("visited");
-//   console.log(nodeRight);
-//   if (parseInt(numArr[1]) < $("#columns").val()) traverse(nodeRight);
-//   else return;
-
-//   let nodeDown = `cell-${parseInt(numArr[0]) + 1}-${parseInt(numArr[1]) + 0}`;
-//   $("#" + nodeDown).addClass("visited");
-//   if (parseInt(numArr[0]) < $("#rows").val()) traverse(nodeDown);
-//   else return;
-// }
 
 function traverse(startNode, endNode) {
   let numArrStart = startNode.substring(5).split("-");
